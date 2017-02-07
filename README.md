@@ -1,8 +1,8 @@
 TIKKLE MOA TAESAN
 =============
-- 404_NOT_FOUND TEAM Project -
-	  2016.11 ~ 2016.12
+< 404_NOT_FOUND TEAM Project >
 -------------
+2016.11 ~ 2016.12
 MindMap 을 기반으로한 아이디어 공유 및 공모전 기획 사이트
 
 Login Page
