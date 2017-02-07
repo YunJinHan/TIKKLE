@@ -1,0 +1,521 @@
+/*login.php,signup.php*/
+#login_content, #sign_content{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1060px;
+}
+#login_content > div, #sign_content > div{
+    margin-bottom: 15px;
+}
+#login_content_header, #sign_content_header{
+    padding: 30px;
+    background-color: #f3f4f7;
+    border-radius: 15px;
+    border: 1px solid #dedede;
+    border-bottom-width: 2px;
+    margin-bottom: 1%;
+}
+#login_content_header h3, #sign_content_header h3{
+    margin-left:6%;
+}
+#login_content_info, #sign_content_info{
+    padding:30px;
+    background-color: #f3f4f7;
+    border-radius: 15px;
+    border: 1px solid #dedede;
+    position: relative;
+    border-bottom-width: 2px;
+    overflow: hidden;
+}
+#login_content_info section, #sign_content_info section{
+    margin-top: 10px;
+    border-right: 1px #dedede solid;
+    width: 60%;
+    float: left;
+}
+#login_content_info aside, #sign_content_info > aside{
+    width: 40%;
+    float: right;
+}
+#login_content_info > aside p, #sign_content_info > aside p{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.login_input, .sign_input{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.login_input label, .sign_input label{
+    padding-left: 45px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 205px;
+}
+.login_input span, .sign_input span{
+    color: #f48023;
+    font-weight: bold;
+}
+.login_input input, .sign_input input{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 295px;
+}
+.login_button, .sign_button{
+    width: 295px;
+    margin:0;
+}
+.login_button button, .sign_button button{
+    display: block;
+    width: 100%;
+    margin-left: 81.5%
+}
+/*signup.php*/
+#user_field{
+    margin-left: 10px;
+}
+
+/*index3.php*/
+.input_data{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #666;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+#enroll_content{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1060px;
+}
+#enroll_content > div{
+    margin-bottom: 15px;
+}
+#enroll_content_header{
+    padding: 25px;
+    background-color: #f3f4f7;
+    border-radius: 15px;
+    border: 1px solid #dedede;
+    border-bottom-width: 2px;
+    margin-bottom: 1%;
+}
+#enroll_content_header h3{
+    margin-left:6%;
+}
+#enroll_content_info{
+    padding:30px;
+    background-color: #f3f4f7;
+    border-radius: 15px;
+    border: 1px solid #dedede;
+    position: relative;
+    border-bottom-width: 2px;
+    overflow: hidden;
+}
+#enroll_content_info section{
+    margin-top: 10px;
+    border-right: 1px #dedede solid;
+    width: 70%;
+    float: left;
+}
+#enroll_content_info > aside{
+    width: 30%;
+    float: right;
+}
+#enroll_content_info > aside > div{
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+.enroll_input{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.enroll_input label{
+    padding-left: 45px;
+    display: inline;
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 150px;
+    font-size:12pt;
+}
+.enroll_input span{
+    color: #f48023;
+    font-weight: bold;
+}
+.enroll_input p{
+    margin-left: 20px;
+}
+.enroll_input select{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.enroll_input textarea{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.enroll_input input{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+    height: 30px;
+}
+.enroll_input #peroid{
+    display: inline;
+    margin:0;
+    margin-left: 10px;
+    width: 100px;
+}
+.enroll_input .proj_date{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    color: #666;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.enroll_button{
+    width: 295px;
+    margin:0;
+}
+.enroll_button button{
+    display: block;
+    width: 100%;
+    margin-left: 81.5%
+}
+aside .time_box{
+    display: block;
+    padding-bottom: 15px;
+    border-bottom: dashed 1px #dedede;
+    margin-bottom: 20px;
+}
+aside .time_title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #2d3a45;
+}
+aside .remain_time #remain-time-text{
+    font-weight: bold;
+}
+aside #progressbar{
+    height: 1em !important;
+    margin-top: 10px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: #446eab
+}
+aside .maximum_time{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #666;
+}
+/*index.php*/
+#header {
+    font-family: 'Nanum Pen Script', cursive;
+    background-color: #2d3a45;
+    color: white;
+    height: 35px;
+    display: flex;
+    margin-bottom: 2%;
+}
+#header a{
+    color: white;
+}
+#header a:hover {
+    text-decoration: none;
+    color:#dedede;
+}
+.board{
+    flex:1;
+    text-align: left;
+    color:white;
+    font-size: 20pt;
+    margin-left: 10px;
+}
+.title{
+    flex:3;
+    text-align: center;
+    color:white;
+    font-size: 20pt;
+}
+.logout{
+    flex:1;
+    text-align: right;
+    color:white;
+    font-size: 20pt;
+}
+.logout a{
+    margin-right: 10px;
+}
+
+#page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+    overflow: auto;
+}
+
+#page > aside {
+    width: 26%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 1%;
+    position: relative;
+}
+
+#page > aside > div{
+    padding: 15px;
+    background-color: #f3f4f7;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+    margin-bottom: 4%;
+    height: auto;
+}
+#page > aside >  div p{
+    margin-bottom: 15px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d3a45;
+}
+#page > aside > div a{
+    color: #666;
+}
+
+#func div{
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+#func button{
+    margin-left:5px;
+}
+.left_sort {
+    margin-left: 20px;
+    padding-right: 13px;
+    border-right: 1px #dedede solid;
+}
+
+.right_sort {
+    padding-left: 12px;
+}
+
+#category ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+#category label {
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#category li {
+    margin-left: 15px;
+}
+textarea {
+    resize: none;
+}
+
+#board {
+    width: 70%;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-left: 27%;
+    position: relative;
+}
+
+#board section {
+    background-color: #f3f4f7;
+    border: 1px solid #dedede;
+    position: relative;
+    height: 190px;
+    padding: 20px;
+    margin-bottom: 1 width: 100%;
+    -webkit-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 15px;
+    margin-bottom: 11px;
+}
+
+#board section a {
+    color: #2099bb;
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#board section .info {
+    margin-top: 10px;
+}
+
+#board section .info span {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #dedede;
+    color: #666;
+    font-weight: bold;
+}
+
+#board section .description {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#board section .description p {
+    width: 530px;
+    color: #999;
+    font-size: 13px;
+    white-space: normal;
+    line-height: 1.2;
+    height: 3.5em;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    float: left;
+}
+
+#board section .description .outer-info {
+    font-size: 13px;
+    line-height: 13px;
+    width: 150px;
+    float: right;
+    height: 54px !important;
+    margin-bottom: 10px;
+}
+
+#board section .description .outer-info .outer-info-upper-data {
+    padding: 8px 0 6px;
+    border-bottom: 1px solid #dedede;
+}
+
+#board section .add-info {
+    line-height: 18px;
+}
+
+.bottom_side{
+    text-align: center;
+}
+.pagination{
+    margin-left:38% !important;
+}
+.pagination li {display: inline;}
+
+.pagination li a {
+    border: none !important;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/*밑에 부분*/
+#footer{
+    background-color: #2d3a45;
+    height: 250px;
+    padding-top: 2%;
+}
+.foot-inner{
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 5px;
+}
+.infoma{
+    display: inline;
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 370px;
+}
+.logo{
+    font-size:25px;
+    font-family: 'Nanum Pen Script', cursive;
+    margin-bottom: 5px;
+}
+.rebbit{
+    width: 50px;
+    height: 50px;
+}
+.member{
+    margin-top: 20px;
+    color: white;
+    float: left;
+    text-decoration: none;
+}
+.member h5{
+    font-size: 14px;
+    padding: 5px 0;
+    font-weight: bold;
+    color: #999;
+    margin-bottom: 5px;
+}
+.member ul{
+    padding-left: 0;
+    font-weight: bold;
+    list-style: none;
+}
+.member li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:15px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+}
+#period{
+    width: 100px;
+}
+.address{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.intro{
+    margin-top: 20px;
+    color: white;
+    float: left;
+    text-decoration: none;
+    margin-left:190px;
+    width: 250px;
+}
+.intro ul{
+    padding-left: 0;
+    font-weight: bold;
+    list-style: none;
+}
+.intro li{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-left:15px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+}

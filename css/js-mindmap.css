@@ -1,0 +1,211 @@
+#debug1 {
+    display: block;
+}
+
+.js-mindmap-active h1 {
+    display: none;
+}
+
+.js-mindmap-active section h1 {
+    display: block;
+}
+
+.js-mindmap-active .node {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: verdana;
+    font-size: 11px;
+    color: black;
+    opacity: 0.9;
+    padding: 0 7px;
+    cursor: pointer;
+    cursor: hand;
+    z-index: 100;
+    list-style: none;
+}
+
+.js-mindmap-active a.node {
+    font: 30px/34px Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.js-mindmap-active .node.active {
+    font-size: 1.5em;
+}
+
+.js-mindmap-active .node.active a {
+    color: #ADFF2F;
+}
+
+.js-mindmap-active .node.activeparent a {
+    color: #001228;
+}
+
+.js-mindmap-active img.line {
+    position: absolute;
+    width: 200px;
+    height: 133px;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 0;
+}
+
+.ui-draggable {
+    position: absolute;
+}
+
+.js-mindmap-active .node .node-action {
+    position: absolute;
+    right: -2em;
+    bottom: -1px;
+    text-align: center;
+    vertical-align: super;
+}
+.js-mindmap-active a.node {
+    background: #c0c8e0;
+    border: 4px solid #818696;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.js-mindmap-active a.node.active {
+    padding: 5px 10px !important;
+    border: 5px solid #5679e2 !important;
+}
+
+.js-mindmap-active a.node.activeparent {
+    padding: 5px 10px !important;
+    border-width: 5px !important;
+    background: #7996ea;
+}
+
+.node_title {
+    text-align: center;
+}
+
+.addNode_window {
+    z-index: 1000;
+    position: absolute;
+    border: 5px solid #3e3f42;
+    padding : 8px;
+    width: 200px;
+    height: 400px;
+    word-break: break-all;
+    font: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: #999999;
+    opacity: 0.7;
+    overflow: auto;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.addWindow {
+    z-index: 1000;
+    position: absolute;
+    border: 5px solid #3e3f42;
+    padding: 2px;
+    width: 200px;
+    height: 310px;
+    word-break: break-all;
+    font: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: #999999;
+    opacity: 0.7;
+    overflow: auto;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.addWindow_addbutton {
+    text-align: center;
+}
+
+.addNode_text {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.addNode_title {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+.addNode_area {
+    text-align: center;
+    color: black;
+}
+.addNode_parent {
+    display: none;
+}
+.addNode_button {
+    padding: 5;
+    font-size: 14pt;
+    color : black;
+}
+.deleteNode_alertWindow {
+    z-index: 1000;
+    position: absolute;
+    border: 5px solid #3e3f42;
+    padding: 2px;
+    width: 200px;
+    height: 80px;
+    word-break: break-all;
+    font: Arial;
+    font-size: 25px;
+    color: white;
+    background-color: #999999;
+    opacity: 0.7;
+    overflow: auto;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.deleteNode_alertWindowText {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+}
+.deleteNode_button {
+    padding: 5;
+    font-size: 14pt;
+    color: black;
+}
+.br_area {
+    height: 50px;
+}

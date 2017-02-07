@@ -1,0 +1,83 @@
+/*
+
+index2.php 117 ~ 159 line css
+
+*/
+article {
+    margin-left: 27%;
+    margin-top:10px;
+    border-radius: 15px;
+    width: 70%;
+}
+.project_info {
+    margin:0;
+    height: 200px;
+    background-color: #f3f4f7;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+    margin-bottom: 11px;
+    position: relative;
+}
+.art{
+    margin:0;
+    margin-bottom: 10px;
+    height: 500px;
+    background-color: #f3f4f7;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+}
+.article_title{
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+}
+.article_date{
+    bottom: 30px;
+    margin: 10px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 15px;
+}
+.article_outer_info{
+    font-size: 13pt;
+    float:right;
+    margin: 10px;
+    margin-top: 0px;
+}
+.article_category {
+    bottom: 50px;
+    margin: 10px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 15px;
+}
+.article_number{
+    font-size : 15px;
+    margin : 10px;
+    margin-left: 30px;
+    bottom: 10px;
+    position: absolute;
+}
+.article_content{
+    margin: 0;
+    margin-bottom: 10px;
+    height: 100%;
+    background-color: #f3f4f7;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+}
+.art > h2 , .article_content > h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+}
+.article_content > p {
+    margin: 20px;
+}
+.article_content > span {
+    float : right;
+    font-size: 8pt;
+    margin-right: 10px;
+}
