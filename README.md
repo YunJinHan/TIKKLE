@@ -6,11 +6,11 @@ TIKKLE MOA TAESAN
 MindMap 을 기반으로한 아이디어 공유 및 공모전 기획 사이트
 
 Login Page
--------------
+------------
 ![login](./screenshot/login.png)
 
 Main Page
--------------
+------------
 ![main](./screenshot/main.png)
 
 Content Page
